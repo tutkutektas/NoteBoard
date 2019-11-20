@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.Model", "NoteBoard.Model\NoteBoard.Model.csproj", "{BE75725E-8D70-4E75-9D92-C0A50B42AACA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.DAL", "NoteBoard.DAL\NoteBoard.DAL.csproj", "{32D7D245-2273-4BAF-A98F-FA0DB235942F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.BLL", "NoteBoard.BLL\NoteBoard.BLL.csproj", "{D34FD5D1-A6E0-4BD5-8E92-427D74889642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BE75725E-8D70-4E75-9D92-C0A50B42AACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE75725E-8D70-4E75-9D92-C0A50B42AACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE75725E-8D70-4E75-9D92-C0A50B42AACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D7D245-2273-4BAF-A98F-FA0DB235942F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D7D245-2273-4BAF-A98F-FA0DB235942F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D7D245-2273-4BAF-A98F-FA0DB235942F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D7D245-2273-4BAF-A98F-FA0DB235942F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34FD5D1-A6E0-4BD5-8E92-427D74889642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34FD5D1-A6E0-4BD5-8E92-427D74889642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34FD5D1-A6E0-4BD5-8E92-427D74889642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34FD5D1-A6E0-4BD5-8E92-427D74889642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
